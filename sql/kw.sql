@@ -10,7 +10,6 @@ CREATE TABLE Pytania (
     ZlaOdpowiedz2 TEXT NOT NULL
 );
 
--- Insert some sample questions
 INSERT INTO Pytania (Pytanie, OdpowiedziPoprawna, ZlaOdpowiedz1, ZlaOdpowiedz2) VALUES
 ('Was ist die Hauptstadt von Deutschland?', 'Berlin', 'München', 'Hamburg'),
 ('Welche Sprache spricht man in Deutschland?', 'Deutsch', 'Französisch', 'Spanisch'),
