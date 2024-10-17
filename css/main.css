@@ -8,7 +8,7 @@ body {
     color: #E3E3E3;
 }
 
-#okinko {
+#box {
     display: flex;
     flex-direction: column;
     align-items: center;
