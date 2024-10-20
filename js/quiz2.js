@@ -4,7 +4,7 @@ document.addEventListener("DOMContentLoaded", function () {
     let questions = [];
 
     function loadQuizData() {
-        fetch("../php/quiz.php")
+        fetch("../php/quiz2.php")
             .then(response => response.json())
             .then(data => {
                 questions = data;
