@@ -4,7 +4,7 @@ document.addEventListener("DOMContentLoaded", function () {
     let questions = [];
 
     function loadQuizData() {
-        fetch("quiz3.php")
+        fetch("../php/quiz.php")
             .then(response => response.json())
             .then(data => {
                 questions = data;
@@ -93,7 +93,7 @@ document.addEventListener("DOMContentLoaded", function () {
     }
 
     document.getElementById("back-to-menu").addEventListener("click", function () {
-        window.location.href = 'index.html'; 
+        window.location.href = '../index.html'; 
     });
 
     loadQuizData();

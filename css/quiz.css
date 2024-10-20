@@ -4,7 +4,7 @@ body {
     display: flex;
     justify-content: center;
     align-items: center;
-    background-color: #1E1E1E;
+    background-color: #405D72;
     color: #E3E3E3;
     font-family: Arial, sans-serif;
 }
@@ -16,9 +16,8 @@ body {
     justify-content: center;
     height: 30vw;
     width: 35vw;
-    border: solid 1px #40522b;
     border-radius: 8px;
-    background-color: #202020;
+    background-color: #758694;
     box-shadow: 0 8px 16px rgba(0, 0, 0, 0.3);
     transition: border-color 0.3s ease;
     padding: 20px;
@@ -27,7 +26,7 @@ body {
 
 h2 {
     margin-bottom: 20px;
-    color: #E3E3E3;
+    color: #F7E7DC;
 }
 
 #answers {
@@ -39,7 +38,7 @@ h2 {
 
 .answer {
     padding: 10px 20px;
-    background-color: #525252;
+    background-color: #405D72;
     border-radius: 5px;
     color: white;
     cursor: pointer;
@@ -47,7 +46,7 @@ h2 {
 }
 
 .answer:hover {
-    background-color: #40522b;
+    background-color: #6482AD;
     transform: translateY(-2px);
 }
 
@@ -65,7 +64,7 @@ h2 {
 
 button {
     padding: 10px 20px;
-    background-color: #525252;
+    background-color: #405D72;
     border: none;
     border-radius: 5px;
     color: white;
@@ -76,7 +75,7 @@ button {
 }
 
 button:hover {
-    background-color: #40522b;
+    background-color: #6482AD;
     transform: translateY(-2px);
 }
 
