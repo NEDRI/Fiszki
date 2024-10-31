@@ -77,7 +77,7 @@ document.addEventListener("DOMContentLoaded", function () {
         const nextButton = document.getElementById("next-question");
 
         nextButton.style.display = "none";
-        scoreText.textContent = `You got ${correctAnswersCount} out of ${questions.length} questions correct!`;
+        scoreText.textContent = `Zdobyłeś ${correctAnswersCount} z ${questions.length} punktów!`;
 
         document.getElementById("question-text").style.display = "none";
         document.getElementById("answers").style.display = "none";
