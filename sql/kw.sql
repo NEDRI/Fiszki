@@ -47,3 +47,47 @@ INSERT INTO Pytania3 (Pytanie, OdpowiedziPoprawna, ZlaOdpowiedz1, ZlaOdpowiedz2)
 ('Was isst man traditionell an Weihnachten in Deutschland?', 'Gans', 'Pizza', 'Hamburger'),
 ('Welches Getränk wird oft auf dem Oktoberfest serviert?', 'Bier', 'Wein', 'Cocktails');
 
+CREATE TABLE Pytania4 (
+    ID INT(11) AUTO_INCREMENT PRIMARY KEY,
+    Pytanie TEXT NOT NULL,
+    OdpowiedziPoprawna TEXT NOT NULL,
+    ZlaOdpowiedz1 TEXT NOT NULL,
+    ZlaOdpowiedz2 TEXT NOT NULL
+);
+
+CREATE TABLE Pytania5 (
+    ID INT(11) AUTO_INCREMENT PRIMARY KEY,
+    Pytanie TEXT NOT NULL,
+    OdpowiedziPoprawna TEXT NOT NULL,
+    ZlaOdpowiedz1 TEXT NOT NULL,
+    ZlaOdpowiedz2 TEXT NOT NULL
+);
+
+CREATE TABLE Pytania6 (
+    ID INT(11) AUTO_INCREMENT PRIMARY KEY,
+    Pytanie TEXT NOT NULL,
+    OdpowiedziPoprawna TEXT NOT NULL,
+    ZlaOdpowiedz1 TEXT NOT NULL,
+    ZlaOdpowiedz2 TEXT NOT NULL
+);
+
+INSERT INTO Pytania4 (Pytanie, OdpowiedziPoprawna, ZlaOdpowiedz1, ZlaOdpowiedz2) VALUES
+('Jaki jest bezokolicznik czasownika modalnego \"kann\"?', 'können', 'konnte', 'könnt'),
+('Jaki jest bezokolicznik czasownika modalnego \"muss\"?', 'müssen', 'mussen', 'müsst'),
+('Jaki jest bezokolicznik czasownika modalnego \"soll\"?', 'sollen', 'sollt', 'sollte'),
+('Jaki jest bezokolicznik czasownika modalnego \"darf\"?', 'dürfen', 'darfen', 'dürfst'),
+('Jaki jest bezokolicznik czasownika modalnego \"will\"?', 'wollen', 'wollte', 'willen');
+
+INSERT INTO Pytania5 (Pytanie, OdpowiedziPoprawna, ZlaOdpowiedz1, ZlaOdpowiedz2) VALUES
+('Jaka forma czasownika \"sein\" jest poprawna w 1. osobie liczby pojedynczej?', 'bin', 'bist', 'ist'),
+('Jaka forma czasownika \"haben\" jest poprawna w 2. osobie liczby pojedynczej?', 'hast', 'hat', 'habe'),
+('Który przypadek odpowiada na pytanie \"komu? czemu?\"?', 'Dativ', 'Akkusativ', 'Genitiv'),
+('Które zdanie jest poprawnie zapisane?', 'Ich gehe ins Kino.', 'Ich gehe in der Kino.', 'Ich gehe im Kino.'),
+('Jak jest liczba mnoga od \"Kind\"?', 'Kinder', 'Kinds', 'Kindes');
+
+INSERT INTO Pytania6 (Pytanie, OdpowiedziPoprawna, ZlaOdpowiedz1, ZlaOdpowiedz2) VALUES
+('Jak powiedzieć \"Dzień dobry\" po niemiecku?', 'Guten Tag', 'Gute Nacht', 'Guten Abend'),
+('Jak zapytasz \"Jak się masz?\" po niemiecku?', 'Wie geht es dir?', 'Was ist los?', 'Wo bist du?'),
+('Jak odpowiedzieć \"Dziękuję\" po niemiecku?', 'Danke', 'Bitte', 'Hallo'),
+('Jak pożegnać się po niemiecku?', 'Auf Wiedersehen', 'Guten Morgen', 'Willkommen'),
+('Jak powiedzieć \"Proszę\" po niemiecku?', 'Bitte', 'Entschuldigung', 'Guten Tag');
