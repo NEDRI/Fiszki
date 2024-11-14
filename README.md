@@ -1,5 +1,4 @@
 # Projekt strony na niemiecki
 TO DO:
-   1. Przysłowia niemiecki tłumaczenie
-   2. Zadanie typu przetłumacz słowa z niemieckiego na polski i na odwrót
-   3. Może układanie zdań z bloków
+   1. Dodatkowe quizy ZROBIONE
+   2. Tlumaczenie slow 
