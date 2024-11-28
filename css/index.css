@@ -4,6 +4,7 @@ html{
     font-family: Arial, sans-serif;
     overflow: hidden;
     animation: changeBackground 5s infinite alternate;
+    overflow-y: scroll;
 }
 header{
     display: flex;
@@ -34,10 +35,11 @@ main{
     display: flex;
     justify-content: space-between;
     margin-right: 150px;
+    flex-wrap: wrap;
 }
 .zakladki{
-    width: 30%;
-    height: 100%;
+    width: 350px;
+    height: 300px;
     background-color: #758694;
     padding: 15px;
     border-radius: 5%;
@@ -60,5 +62,9 @@ img{
     -webkit-box-shadow: 1px 1px 21px -6px rgba(26, 26, 72, 1);
     -moz-box-shadow: 1px 1px 21px -6px rgba(26, 26, 72, 1);
     box-shadow: 1px 1px 21px -6px rgba(26, 26, 72, 1);
+}
+.linie{
+    display: flex;
+    margin-top: 3%;
 }
 
