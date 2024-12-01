@@ -4,9 +4,9 @@ body {
     display: flex;
     justify-content: center;
     align-items: center;
-    background-color: #405D72;
-    color: #E3E3E3;
+    background-color: #1B262C;
     font-family: Arial, sans-serif;
+    color: white;
 }
 
 #quiz-container {
@@ -17,7 +17,7 @@ body {
     height: 30vw;
     width: 35vw;
     border-radius: 8px;
-    background-color: #758694;
+    background-color: #0F4C75;
     box-shadow: 0 8px 16px rgba(0, 0, 0, 0.3);
     transition: border-color 0.3s ease;
     padding: 20px;
@@ -26,7 +26,6 @@ body {
 
 h2 {
     margin-bottom: 20px;
-    color: #F7E7DC;
 }
 
 #answers {
@@ -38,9 +37,8 @@ h2 {
 
 .answer {
     padding: 10px 20px;
-    background-color: #405D72;
+    background-color: #3282B8;
     border-radius: 5px;
-    color: white;
     cursor: pointer;
     transition: background-color 0.3s ease, transform 0.2s ease;
 }
@@ -64,14 +62,15 @@ h2 {
 
 button {
     padding: 10px 20px;
-    background-color: #405D72;
+    background-color: #3282B8;
+    color: white;
     border: none;
     border-radius: 5px;
-    color: white;
     font-size: 1rem;
     cursor: pointer;
     transition: background-color 0.3s ease, transform 0.2s ease;
     margin-top: 20px;
+    
 }
 
 button:hover {
@@ -93,5 +92,4 @@ button:active {
 #score-text {
     margin-bottom: 20px;
     font-size: 1.5rem;
-    color: #E3E3E3;
 }
