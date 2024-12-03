@@ -9,9 +9,10 @@ html{
 header{
     display: flex;
     justify-content: center;
+    justify-content: space-around;
 }
 #logo{
-    margin-right: 700px;
+
     height: 100%;
     width: 6%;
     text-align: center;
@@ -23,7 +24,7 @@ header{
 a{
     text-decoration: none;
     font-size: 180%;
-    margin-left: 150px;
+    gap: 60%;
     color: #ffffff;
 }
 a:hover{
@@ -40,9 +41,7 @@ main{
     width: 50%;
     height: 40%;
     border-radius: 20px;
-    margin-right: 150px;
     background-color: #0F4C75;
-    margin-left: 120px;
     -webkit-box-shadow: 1px 1px 21px -6px rgba(26, 26, 72, 1);
     -moz-box-shadow: 1px 1px 21px -6px rgba(26, 26, 72, 1);
     box-shadow: 1px 1px 21px -6px rgba(26, 26, 72, 1);
@@ -55,5 +54,5 @@ p{
 img{
     width: 40px;
     height: 40px;
-    margin-left: 30%;
+    margin-left: 45%;
 }
